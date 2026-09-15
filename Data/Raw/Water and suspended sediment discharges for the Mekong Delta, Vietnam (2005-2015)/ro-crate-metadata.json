@@ -1,0 +1,290 @@
+{
+"@context": "https://w3id.org/ro/crate/1.2/context",
+"@graph": [
+{
+"@type": "CreativeWork",
+"@id": "ro-crate-metadata.json",
+"conformsTo": { "@id": "https://w3id.org/ro/crate/1.2" },
+"about": { "@id": "https://catalogue.ceh.ac.uk/id/ac5b28ca-e087-4aec-974a-5a9f84b06595" }
+},
+{
+"@type":"Dataset",
+"name":"Water and suspended sediment discharges for the Mekong Delta, Vietnam (2005-2015)",
+"@id": "https://catalogue.ceh.ac.uk/id/ac5b28ca-e087-4aec-974a-5a9f84b06595",
+"identifier": {"@id": "https://doi.org/10.5285/ac5b28ca-e087-4aec-974a-5a9f84b06595"},
+"citation":"Darby, S.E., Hackney, C.R., Parsons, D.R., Tri, P.D.V. (2020). Water and suspended sediment discharges for the Mekong Delta, Vietnam (2005-2015). NERC Environmental Information Data Centre. (Dataset). https://doi.org/10.5285/ac5b28ca-e087-4aec-974a-5a9f84b06595",
+"hasPart": [
+{"@id":
+"data/Adcpcalibrations.csv"
+} ,
+{"@id":
+"data/Canthofluxes.csv"
+} ,
+{"@id":
+"data/Canthoratings.csv"
+} ,
+{"@id":
+"data/Chaudocfluxes.csv"
+} ,
+{"@id":
+"data/Chaudocratings.csv"
+} ,
+{"@id":
+"data/Mythaunfluxes.csv"
+} ,
+{"@id":
+"data/Mythaunratings.csv"
+} ,
+{"@id":
+"data/Tanchaufluxes.csv"
+} ,
+{"@id":
+"data/Tanchauratings.csv"
+} ,
+{"@id":
+"supporting-documents/Metadata.rtf"
+} ],
+"description":"This dataset describes hourly time series of discharge and suspended sediment flux at four sites in the Vietnamese Mekong Delta (Chau Doc, Tan Chau, Can Tho and My Thaun) for the period 2005 – 2015. This data was calculated from historic Acoustic Doppler Current Profiler (aDcp)data obtained as part of routine flood monitoring conducted by the Vietnamese Hydrological Agency. The data were collated by the authors. The data were processed to back out sediment fluxes through the delta through calibration of the acoustic backscatter signal to suspended sediment concentrations collected in Chau Doc (May 2017) and Can Tho (September 2017). For each aDcp instrument acoustic backscatter signal was calibrated to observed suspended sediment concentrations (SSCs). These concentrations values were then matched to measured acoustic backscatter values (dB) from the depth at which each sample was taken to generate power law calibration curves. To generate daily fluxes, the point specific ADCP fluxes were used to generate sediment ratings curves between sediment flux (kg/s) and discharge (m3/s). These ratings curves were then propagated over recorded daily discharge values measured by the Vietnamese hydrological agency to provide daily fluxes over the period of record. The work was funded through NERC grant reference NE/P008100/1 - Deciphering the dominant drivers of contemporary relative sea-level change: Analysing sediment deposition and subsidence in a vulnerable mega-delta.",
+"isAccessibleForFree": true,
+"datePublished":"2020-06-26",
+"keywords": [
+"acoustic Doppler current profiler"
+,
+"aDcp"
+,
+"Mekong Delta"
+,
+"Sediment"
+,
+"Vietnam"
+],
+"creator": [
+{"@id": "https://orcid.org/0000-0001-8778-4394"},
+{"@id": "https://orcid.org/0000-0001-8876-4336"},
+{"@id": "https://orcid.org/0000-0002-5142-4466"},
+{"@id": "#creator3"}
+],
+"temporalCoverage":[
+"2005-01-01/2015-12-31" ],
+"spatialCoverage": [ {"@id": "#bbox0"}],
+"funding": [ {"@id": "https://gtr.ukri.org/projects?ref=NE/P008100/1"}
+],
+"license": {"@id": "https://spdx.org/licenses/OGL-UK-3.0"},
+"distribution": [ {"@id": "#distribution0"}],
+"publisher":{"@id":"https://ror.org/04xw4m193"},
+"provider" : {"@id":"https://ror.org/04xw4m193"},
+"includedInDataCatalog":{ "@id": "#eidc-dataCatalogue"}
+},
+{
+"@id": "#eidc-dataCatalogue",
+"@type":"DataCatalog",
+"name":"Environmental Information Data Centre",
+"alternateName":"EIDC",
+"url":"https://catalogue.ceh.ac.uk/eidc/documents"
+},
+{
+"@id": "https://ror.org/04xw4m193",
+"@type":"Organization",
+"name":"NERC EDS Environmental Information Data Centre",
+"email": "info@eidc.ac.uk"
+}
+,{
+"@id": "https://spdx.org/licenses/OGL-UK-3.0",
+"@type": "CreativeWork",
+"name": "Open Government Licence v3",
+"alternateName":"OGL-UK-3.0",
+"sameAs": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+}
+,{
+"@id": "https://doi.org/10.5285/ac5b28ca-e087-4aec-974a-5a9f84b06595",
+"@type":"PropertyValue",
+"propertyID": "https://registry.identifiers.org/registry/doi",
+"value": "10.5285/ac5b28ca-e087-4aec-974a-5a9f84b06595",
+"url": "https://doi.org/10.5285/ac5b28ca-e087-4aec-974a-5a9f84b06595"
+}
+, {
+"@id": "#bbox0",
+"@type":"Place",
+"geo": {
+"@id": "#geoshape0"
+}
+},
+{
+"@id": "#geoshape0",
+"@type": "GeoShape",
+"box":"104.277 8.027, 107.331 11.146"
+}
+,
+{
+"@id": "https://orcid.org/0000-0001-8778-4394",
+"@type": "Person",
+"name": "Darby, S.E."
+, "familyName": "Darby"
+, "givenName": "S.E."
+,"affiliation":{
+"@id": "https://ror.org/01ryk1543"
+}
+},
+{
+"@id": "https://orcid.org/0000-0001-8876-4336",
+"@type": "Person",
+"name": "Hackney, C.R."
+, "familyName": "Hackney"
+, "givenName": "C.R."
+,"affiliation":{
+"@id": "https://ror.org/04nkhwh30"
+}
+},
+{
+"@id": "https://orcid.org/0000-0002-5142-4466",
+"@type": "Person",
+"name": "Parsons, D.R."
+, "familyName": "Parsons"
+, "givenName": "D.R."
+,"affiliation":{
+"@id": "https://ror.org/04nkhwh30"
+}
+},
+{
+"@id": "#creator3",
+"@type": "Person",
+"name": "Tri, P.D.V."
+, "familyName": "Tri"
+, "givenName": "P.D.V."
+,"affiliation":{
+"@type":"Organization",
+"name":"Can Tho University "
+}
+}
+, {
+"@id": "https://gtr.ukri.org/projects?ref=NE/P008100/1",
+"@type": "MonetaryGrant"
+,"name": "Deciphering the dominant drivers of contemporary relative sea-level change: Analysing sediment deposition and subsidence in a vulnerable mega-delta"
+,"identifier": "NE/P008100/1"
+,"funder": {"@id": "https://ror.org/02b5d8509"}
+}
+,{
+"@id": "https://ror.org/02b5d8509",
+"@type": "Organization"
+,"name": "Natural Environment Research Council"
+}
+, {
+"@id":
+"data/Adcpcalibrations.csv"
+,"name": "Adcpcalibrations.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "fb003a318db2f2d5081643ed61857eaf8c07124da0590d030d579b87711c3b2d"
+,"lastModified": "2020-06-26T09:22:04"
+,"bytes": 3369
+,"contentUrl": "data/Adcpcalibrations.csv"
+}
+, {
+"@id":
+"data/Canthofluxes.csv"
+,"name": "Canthofluxes.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "e35626d501df5bffc7ef2a1eae0877be2dcab0620c90e3860c746ead0fb16eed"
+,"lastModified": "2020-06-26T09:22:11"
+,"bytes": 37659
+,"contentUrl": "data/Canthofluxes.csv"
+}
+, {
+"@id":
+"data/Canthoratings.csv"
+,"name": "Canthoratings.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "9186998fc7acfaa61d4dbd2bf576074c870782a159e056196bd549ce4be0bbf6"
+,"lastModified": "2020-06-26T09:22:30"
+,"bytes": 65603
+,"contentUrl": "data/Canthoratings.csv"
+}
+, {
+"@id":
+"data/Chaudocfluxes.csv"
+,"name": "Chaudocfluxes.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "4b033d495edcd6d19eeb993bb513f14ec859b40e1d3bd1f4b6422a874fb3833e"
+,"lastModified": "2020-06-26T09:23:01"
+,"bytes": 37711
+,"contentUrl": "data/Chaudocfluxes.csv"
+}
+, {
+"@id":
+"data/Chaudocratings.csv"
+,"name": "Chaudocratings.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "ad1346f0f11579f0e119f83ec68034a6f45fad29b0342eb876fd46a4a7ebd0fe"
+,"lastModified": "2020-06-26T09:22:54"
+,"bytes": 78840
+,"contentUrl": "data/Chaudocratings.csv"
+}
+, {
+"@id":
+"data/Mythaunfluxes.csv"
+,"name": "Mythaunfluxes.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "86f33bf689899d3a66226687e3eb50fc699968264e08627f7f657280f6ca73ef"
+,"lastModified": "2020-06-26T09:23:11"
+,"bytes": 34839
+,"contentUrl": "data/Mythaunfluxes.csv"
+}
+, {
+"@id":
+"data/Mythaunratings.csv"
+,"name": "Mythaunratings.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "59e614d7185ab806ce96ec0d0c5e49c940a84f3c2d76172a10ff244af1d73c38"
+,"lastModified": "2020-06-26T09:22:42"
+,"bytes": 55393
+,"contentUrl": "data/Mythaunratings.csv"
+}
+, {
+"@id":
+"data/Tanchaufluxes.csv"
+,"name": "Tanchaufluxes.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "37c378448b92031f2b2a690fbf74a606812c57de648196527c0540a6cb86003f"
+,"lastModified": "2020-06-26T09:22:47"
+,"bytes": 37718
+,"contentUrl": "data/Tanchaufluxes.csv"
+}
+, {
+"@id":
+"data/Tanchauratings.csv"
+,"name": "Tanchauratings.csv","@type": "File"
+,"encodingFormat": "text/csv"
+,"sha256": "30fe5b8cc18619874c281070b81bb62aed05c14b412bc5d4150daee6338b4596"
+,"lastModified": "2020-06-26T09:22:36"
+,"bytes": 82426
+,"contentUrl": "data/Tanchauratings.csv"
+}
+, {
+"@id":
+"supporting-documents/Metadata.rtf"
+,"name": "Metadata.rtf","@type": "File"
+,"encodingFormat": "text/rtf"
+,"sha256": "3d186d684205ee8cfad7093b05cd109be31b94a5dede0b59527f832751843c62"
+,"lastModified": "2020-06-26T09:22:21"
+,"bytes": 96155
+,"contentUrl": "supporting-documents/Metadata.rtf"
+}
+, {
+"@id": "#distribution0",
+"@type":"DataDownload",
+"contentUrl":"https://data-package.ceh.ac.uk/data/ac5b28ca-e087-4aec-974a-5a9f84b06595"
+,"encodingFormat":"application/zip"
+}
+, {
+"@id": "https://ror.org/04nkhwh30",
+"@type": "Organization",
+"name": "University of Hull",
+"identifier": "https://ror.org/04nkhwh30"
+},
+{
+"@id": "https://ror.org/01ryk1543",
+"@type": "Organization",
+"name": "University of Southampton",
+"identifier": "https://ror.org/01ryk1543"
+}
+]
+}

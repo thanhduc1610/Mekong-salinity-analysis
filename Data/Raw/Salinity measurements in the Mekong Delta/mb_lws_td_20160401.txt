@@ -1,0 +1,30 @@
+# The file contains the salinity concentration over depth and along the main channel of TRAN DE
+# every column of the data shows salinity over the water column, and the values are stored from the top of the 
+# water column (depth = 0) and changes over the column per 0.5m of depth. 
+# The first column (from the left) represents the KP=0 (at the sea side), and every column to the right side 
+# presents the measurement 3km further upstream. 
+# The measurements are carried out by Utrecht Univeristy, the Netherlands, 
+#  in cooperation with the Southern Institute of Water Resources and Reasearch (SIWRR), Vietnam
+# Note that these are processed data; the original signals are carried out by conductivity [Siemens/Sec] and 
+#  the presented valuesare converted to pratical salinity scale [PSS]. 
+# Moreover, the values presented are post-processed and some of the missing values are interpolated. 
+# 
+# Author: Sepehr Eslami 
+# File generation date & time: Mon Sep  7 13:44:17 2020
+# 
+# 
+16.360,14.398,14.245,12.131,10.885,8.860,6.936,5.737,4.220,3.384,2.096,1.179,0.826,0.711,0.689,0.417,0.211,0.115
+16.455,15.317,14.274,12.156,11.030,8.925,8.040,5.888,5.009,3.420,2.100,1.184,0.905,0.712,0.724,0.413,0.246,0.115
+16.717,15.757,14.335,12.965,11.158,9.069,8.865,6.012,5.113,3.720,2.110,1.255,0.964,0.825,0.827,0.417,0.368,0.115
+17.037,16.330,14.547,13.356,11.339,9.312,8.877,8.230,6.245,3.808,2.785,1.405,1.060,0.921,1.253,0.465,0.391,0.115
+19.970,16.582,15.229,13.807,12.577,9.902,9.273,8.410,6.392,5.861,3.494,1.627,1.089,1.034,1.925,0.678,0.422,0.116
+20.986,17.470,16.048,14.667,12.760,11.019,9.621,8.626,7.350,6.360,4.949,1.752,1.050,1.936,2.370,0.961,0.628,0.119
+21.443,18.594,18.530,16.582,14.667,11.363,9.840,8.872,7.974,6.867,5.027,3.351,1.094,4.018,3.040,1.509,0.670,0.125
+21.855,19.753,18.979,16.835,15.416,12.176,9.953,8.966,8.755,7.788,6.839,3.437,1.149,4.596,4.541,3.066,1.020,0.131
+22.116,19.818,19.108,17.315,15.918,14.046,10.173,9.503,8.948,8.311,7.131,3.530,1.268,4.850,5.664,4.245,1.326,0.132
+22.247,19.818,19.495,17.315,15.918,14.046,10.343,9.781,9.148,8.761,7.296,3.530,1.446,4.950,5.664,4.800,2.464,0.143
+22.247,nan,19.624,nan,15.918,nan,10.517,9.900,9.361,8.856,7.296,nan,1.446,4.950,nan,5.139,2.806,0.152
+nan,nan,19.689,nan,nan,nan,10.798,9.918,9.562,8.856,nan,nan,nan,nan,nan,4.966,3.426,0.155
+nan,nan,19.689,nan,nan,nan,10.798,9.918,9.562,nan,nan,nan,nan,nan,nan,4.966,3.426,0.155
+nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan
+nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan

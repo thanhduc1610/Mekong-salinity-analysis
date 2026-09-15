@@ -1,0 +1,30 @@
+# The file contains the salinity concentration over depth and along the main channel of DINH AN
+# every column of the data shows salinity over the water column, and the values are stored from the top of the 
+# water column (depth = 0) and changes over the column per 0.5m of depth. 
+# The first column (from the left) represents the KP=0 (at the sea side), and every column to the right side 
+# presents the measurement 3km further upstream. 
+# The measurements are carried out by Utrecht Univeristy, the Netherlands, 
+#  in cooperation with the Southern Institute of Water Resources and Reasearch (SIWRR), Vietnam
+# Note that these are processed data; the original signals are carried out by conductivity [Siemens/Sec] and 
+#  the presented valuesare converted to pratical salinity scale [PSS]. 
+# Moreover, the values presented are post-processed and some of the missing values are interpolated. 
+# 
+# Author: Sepehr Eslami 
+# File generation date & time: Mon Sep  7 13:43:59 2020
+# 
+# 
+11.808,8.492,6.773,4.902,4.702,4.370,4.159,4.128,3.530,2.971,2.152,1.310,0.000,0.000,0.000,0.000,0.000,0.000
+12.525,8.813,7.249,4.923,4.637,4.381,4.159,3.860,3.547,2.966,2.152,1.310,0.000,0.000,0.000,0.000,0.000,0.000
+18.580,12.150,7.294,5.202,5.395,5.942,4.348,4.269,4.095,3.014,2.152,1.315,0.000,0.000,0.000,0.000,0.000,0.000
+22.256,16.871,8.854,7.829,8.358,6.697,6.108,5.062,3.566,3.025,2.152,1.323,0.000,0.000,0.000,0.000,0.000,0.000
+24.495,21.216,14.637,17.144,15.320,8.841,7.530,5.736,5.518,3.069,2.429,1.428,0.000,0.000,0.000,0.000,0.000,0.000
+28.197,23.163,20.661,18.452,16.730,12.646,9.230,6.335,5.523,3.428,3.118,2.251,0.000,0.000,0.000,0.000,0.000,0.000
+28.265,25.554,22.388,18.747,16.531,14.546,11.617,7.168,5.792,5.323,3.915,2.732,0.000,0.000,0.000,0.000,0.000,0.000
+28.676,27.856,26.431,20.207,18.032,16.160,13.039,11.496,8.027,6.006,5.083,2.843,0.000,0.000,0.000,0.000,0.000,0.000
+28.881,28.129,27.993,24.059,19.373,16.661,14.144,13.713,12.040,8.614,5.439,2.896,0.000,0.000,0.000,0.000,0.000,0.000
+29.155,28.265,27.993,26.521,22.604,17.073,15.290,14.824,13.134,11.773,6.970,3.361,0.000,0.000,0.000,0.000,0.000,0.000
+29.155,28.265,27.993,27.061,25.593,17.614,16.102,15.072,13.991,12.620,9.399,4.054,0.000,0.000,0.000,0.000,0.000,0.000
+29.155,28.265,27.993,27.061,25.593,24.223,17.714,15.196,14.299,12.741,11.533,5.077,0.000,0.000,0.000,0.000,0.000,0.000
+29.155,nan,nan,nan,nan,23.842,18.032,15.196,14.361,12.741,11.533,5.792,0.000,0.000,0.000,0.000,0.000,0.000
+nan,nan,nan,nan,nan,23.842,18.095,15.196,14.361,12.741,11.593,6.221,0.000,0.000,0.000,0.000,0.000,0.000
+nan,nan,nan,nan,nan,nan,18.095,nan,14.361,12.741,11.593,7.998,0.000,0.000,0.000,0.000,0.000,0.000

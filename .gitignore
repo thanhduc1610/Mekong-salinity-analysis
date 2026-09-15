@@ -1,0 +1,17 @@
+# Large geospatial datasets
+*.tif
+*.tiff
+
+# PyCharm
+.idea/
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

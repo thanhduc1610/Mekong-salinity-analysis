@@ -1,0 +1,30 @@
+# The file contains the salinity concentration over depth and along the main channel of DINH AN
+# every column of the data shows salinity over the water column, and the values are stored from the top of the 
+# water column (depth = 0) and changes over the column per 0.5m of depth. 
+# The first column (from the left) represents the KP=0 (at the sea side), and every column to the right side 
+# presents the measurement 3km further upstream. 
+# The measurements are carried out by Utrecht Univeristy, the Netherlands, 
+#  in cooperation with the Southern Institute of Water Resources and Reasearch (SIWRR), Vietnam
+# Note that these are processed data; the original signals are carried out by conductivity [Siemens/Sec] and 
+#  the presented valuesare converted to pratical salinity scale [PSS]. 
+# Moreover, the values presented are post-processed and some of the missing values are interpolated. 
+# 
+# Author: Sepehr Eslami 
+# File generation date & time: Mon Sep  7 13:44:24 2020
+# 
+# 
+16.416,14.825,9.044,14.583,10.909,8.601,6.569,5.494,4.796,4.599,4.414,2.993,2.554,2.421,1.747,1.321,0.768,0.339
+19.280,16.628,14.643,14.583,11.854,8.975,7.144,5.887,4.850,4.751,4.670,3.292,3.100,2.580,2.029,1.405,0.815,0.419
+19.592,17.518,15.191,14.734,12.210,9.687,7.483,6.532,4.969,4.942,4.730,3.352,3.289,2.745,2.206,1.464,0.839,0.432
+20.030,18.223,15.252,14.795,12.687,10.031,7.898,6.532,5.445,5.286,4.806,3.542,3.410,2.864,2.338,1.508,0.891,0.469
+20.259,19.155,16.717,15.159,13.046,10.223,8.268,6.700,5.495,5.632,5.029,3.733,3.484,2.890,2.554,1.538,0.924,0.594
+20.511,19.592,17.976,15.770,13.346,10.375,8.595,6.953,5.489,5.837,5.040,4.206,3.563,2.932,2.569,1.593,0.955,0.706
+20.700,20.134,18.223,16.288,13.947,10.445,8.756,7.215,5.777,6.020,5.154,4.556,3.632,3.006,2.626,1.621,0.955,0.739
+20.763,20.259,18.906,17.359,15.038,10.557,8.929,7.618,6.596,6.025,5.269,4.551,3.892,3.126,2.657,1.706,1.160,0.730
+20.826,20.322,19.155,17.852,15.798,10.791,9.351,7.618,6.894,6.025,5.610,4.562,3.991,3.205,2.673,1.786,1.184,0.730
+20.889,20.322,19.155,18.038,15.953,11.499,9.461,7.589,7.103,6.025,5.626,4.589,4.168,3.220,2.673,1.821,1.199,0.739
+20.889,nan,nan,18.038,15.953,11.795,9.542,7.555,7.131,6.025,5.571,4.610,4.211,3.231,2.678,1.851,1.189,0.744
+20.889,nan,nan,nan,nan,12.116,9.623,7.555,6.967,6.025,5.450,4.654,4.284,3.226,2.678,1.851,1.223,0.739
+nan,nan,nan,nan,nan,12.116,9.670,7.555,6.967,nan,5.242,4.708,4.317,3.304,nan,nan,1.267,0.735
+nan,nan,nan,nan,nan,nan,9.670,nan,nan,nan,5.242,4.708,4.317,3.304,nan,nan,1.267,0.735
+nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan,nan

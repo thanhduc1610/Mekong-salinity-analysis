@@ -1,0 +1,30 @@
+# The file contains the salinity concentration over depth and along the main channel of TRAN DE
+# every column of the data shows salinity over the water column, and the values are stored from the top of the 
+# water column (depth = 0) and changes over the column per 0.5m of depth. 
+# The first column (from the left) represents the KP=0 (at the sea side), and every column to the right side 
+# presents the measurement 3km further upstream. 
+# The measurements are carried out by Utrecht Univeristy, the Netherlands, 
+#  in cooperation with the Southern Institute of Water Resources and Reasearch (SIWRR), Vietnam
+# Note that these are processed data; the original signals are carried out by conductivity [Siemens/Sec] and 
+#  the presented valuesare converted to pratical salinity scale [PSS]. 
+# Moreover, the values presented are post-processed and some of the missing values are interpolated. 
+# 
+# Author: Sepehr Eslami 
+# File generation date & time: Mon Sep  7 13:43:52 2020
+# 
+# 
+nan,14.386,12.629,12.603,10.810,5.473,4.205,4.179,1.633,3.337,2.569,2.090,1.117,0.566,0.389,0.221,0.152,0.116
+nan,15.199,12.874,12.874,10.983,5.716,5.215,4.394,3.040,3.704,3.411,2.110,1.119,0.600,0.430,0.225,0.152,0.116
+nan,17.735,13.024,13.024,11.228,5.829,7.686,3.784,4.582,4.272,3.839,2.967,1.153,0.679,0.447,0.276,0.151,0.116
+nan,18.955,13.333,13.361,12.079,8.028,10.580,5.171,5.630,5.211,4.177,3.869,1.158,0.708,0.434,0.298,0.152,0.116
+nan,19.730,14.386,14.417,14.138,10.963,11.363,6.468,6.364,6.375,5.389,4.365,1.054,0.709,0.437,0.307,0.152,0.120
+nan,19.730,14.760,14.791,14.698,12.140,11.968,7.764,8.044,8.533,7.496,4.311,1.059,0.726,0.422,0.310,0.154,0.122
+nan,19.795,17.152,17.224,15.449,13.861,12.943,10.738,8.919,9.720,8.684,4.442,1.278,0.760,0.436,0.310,0.155,0.123
+nan,19.795,18.363,18.440,16.934,14.449,13.311,11.580,10.239,9.980,8.836,4.431,1.374,0.770,0.427,0.311,0.159,0.124
+nan,nan,18.363,18.440,17.125,15.951,13.434,12.125,10.694,10.010,8.906,4.431,1.487,0.776,0.425,0.310,0.178,0.124
+nan,nan,nan,nan,17.125,16.140,13.495,12.551,11.436,10.045,8.918,nan,1.492,0.778,0.422,0.309,0.178,0.124
+nan,nan,nan,nan,nan,16.140,13.557,12.916,12.040,10.022,8.930,nan,1.434,0.780,0.422,0.301,nan,0.124
+nan,nan,nan,nan,nan,nan,13.495,12.916,12.221,10.022,8.930,nan,1.434,0.780,nan,0.301,nan,0.124
+nan,nan,nan,nan,nan,nan,13.618,12.916,12.221,10.022,nan,nan,nan,nan,nan,nan,nan,nan
+nan,nan,nan,nan,nan,nan,13.618,12.916,12.282,nan,nan,nan,nan,nan,nan,nan,nan,nan
+nan,nan,nan,nan,nan,nan,nan,nan,12.282,nan,nan,nan,nan,nan,nan,nan,nan,nan

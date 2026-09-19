@@ -15,3 +15,6 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Large raw spatial datasets
+Data/Raw/HydroRIVERS_v10_as.gdb/
